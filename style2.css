@@ -1,0 +1,140 @@
+
+.right1 {
+   
+    list-style: none; 
+    display: none;
+    flex-direction: column; 
+    position: fixed;
+    top:0;
+    right: 0;
+    height: 100vh;
+    width:17rem;
+    background-color: rgba(255, 255, 255, 0.034);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    
+    
+}
+ .right1  li{
+    
+    width: 100%;
+    padding: 2.5px 2rem;
+     margin: 1.5rem; 
+     border: 1px solid rgba(248, 248, 248, 0);
+} 
+.right1  li a{
+    width: 80%;
+    text-decoration: none;
+    font-family:'Poppins';
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+    /* border: 1px solid rgb(248, 248, 248); */
+    padding: 0.6rem;
+    border-radius: 1rem;
+}
+.right1  li:hover{
+    background-color: #e4eee1;
+    border: 1px solid #e4eee1;
+}
+.hamb{
+    /* border: 1px solid red; */
+    font-size: 1.75rem;
+    
+}
+.hambb{
+    display: none;
+}
+.cross{
+    font-size: 2rem; 
+    margin: 1rem;
+}
+@media(max-width:910px){
+    .navbar{
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+    .hideonmobile{
+        display: none;
+    }
+    .font1{
+        font-size: 1.2rem;
+    }
+    .inputb{
+        width:100% ;
+        margin: 0.8rem;
+    }
+    .inputbb{
+        width: 100%;
+    }
+
+    .marginadjust{
+        margin: 2rem 2rem 2rem 2rem;
+    }
+    .widthadj{
+        width: 90%;
+        font-size: 1.2rem;
+        height:6vh ;
+    }
+    .detailc{
+        font-size: 1rem;
+         height: 23vh;
+    }
+    .hambb{
+        display: flex;
+    }
+}
+@media(max-width:600px){
+    .headingadj{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .widthadj{
+        width: 85%;
+        height: 5vh;
+        font-size: 1rem;
+    }
+    .detailc{
+        font-size: 1rem;
+         height: 23vh;
+    }
+    .hambb{
+        display: flex;
+    }
+}
+@media(max-width:850px){
+
+    .box11{
+        font-size: 0.8rem;
+        width: 85%;
+        padding: 1.3rem;
+    }
+    #role{
+        font-size: 1.9rem;
+
+    }
+    #company{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:570px){
+    .box11{
+        font-size: 0.7rem;
+        width: 90%;
+        padding: 1rem;
+    }
+}
+@media(max-width:460px){
+    .box11{
+        font-size: 0.6rem;
+        width: 95%;
+        padding: 0.7rem;
+    }
+    #role{
+        font-size: 1.7rem;
+
+    }
+    #company{
+        font-size: 1rem;
+    }
+}

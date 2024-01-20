@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+#myText{
+    width: 100%;
+    height: 20vh;
+}
+body{
+    background-color: #F3F9E3;
+}
+.upload{
+    border: 1px solid red;
+    margin: 5rem;
+    padding: 2rem;
+    height: 80vh;
+    display: flex;
+    overflow: hidden;
+    overflow-y: scroll;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    font-family:'Poppins';
+    font-weight: bold;
+}
+/* .font1{
+    font-size:3rem;
+} */
+.fetch{
+    border: 1px solid red;
+    margin: 2rem 5rem 5rem 5rem;
+    height: 70vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.add{
+    width: 60%;
+    margin:  0 5rem ;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  
+}
+.addupdate{
+    border: none;
+    padding:0.5rem;
+    margin-top: 3rem;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width:100%;
+    height:3rem;
+    font-family:'Poppins';
+    box-shadow: 0 0 8px rgb(241, 18, 18), 0 0 18px rgb(7, 4, 4);
+}
+.addupdate:hover{
+    cursor: pointer;
+    color:rgb(255, 0, 0);
+
+}
+.close{
+    border: none;
+    padding:0.5rem;
+    margin-top: 3rem;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width:100%;
+    height:3rem;
+    font-family:'Poppins';
+    box-shadow: 0 0 8px rgb(241, 18, 18), 0 0 18px rgb(7, 4, 4);
+}
+.close:hover{
+    cursor: pointer;
+    color:rgb(255, 0, 0);
+}
+.first{  
+    width: 80%;  
+    margin: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second{
+    width: 80%;  
+    margin: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.third{
+    width: 100%;  
+    margin: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#myCompany{
+    
+  
+  resize: none;
+  text-align: center;
+  padding: 0.2rem;
+  border-radius: 1rem;
+}
+#myWork{
+  
+  
+  
+  resize: none;
+  text-align: center;
+  padding: 0.2rem;
+  border-radius: 1rem;
+}
+#myRole{
+    
+  
+  resize: none;
+  text-align: center;
+  padding: 0.2rem;
+  border-radius: 1rem;
+}
+#myTime{
+    
+    
+    resize: none;
+
+    text-align: center;
+    padding: 0.2rem;
+    border-radius: 1rem;
+}
+#myMoney{
+    
+    
+    resize: none;
+    text-align: center;
+    padding: 0.2rem;
+    border-radius: 1rem;
+}
+#myLocation{
+    
+    
+    resize: none;
+
+    text-align: center;
+    padding: 0.2rem;
+    border-radius: 1rem;
+}
+#myNature{
+    
+    
+    resize: none;
+    
+    text-align: center;
+    padding: 0.2rem;
+    border-radius: 1rem;
+}
+#myExperience{
+    
+    
+    resize: none;
+    
+    text-align: center;
+    padding: 0.2rem;
+    border-radius: 1rem;
+}
+#myWorking{
+    width: 100%;
+    
+    resize: none;
+    
+    padding: 0.4rem;
+    border-radius: 1rem;
+}
+.detailc{
+    font-size: 1.2rem;
+    height: 25vh;
+}
+.widthadj{
+    margin: 0.4rem;
+    width: 70%;
+    height: 6.5vh;
+    font-size: 1.5rem;
+    border: 1px solid rgb(22, 14, 14);
+}
+.update{
+    width: 50%;
+}
+.updatebtn{
+    border: none;
+    padding:0.5rem;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width:100%;
+    height:3rem;
+    font-family:'Poppins';
+    box-shadow: 0 0 4px rgb(241, 18, 18), 0 0 10px rgb(7, 4, 4);
+}
+.updatebtn:hover{
+    cursor: pointer;
+    color: red;
+}
+/* .hide{
+    display: none;
+} */
+ 
+.hide{
+    display: none;
+}
+.headingtop{
+    width: 100%;
+    
+    display: flex;
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+ font-family: 'Caveat', cursive;;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box11{
+    font-family:'Poppins';
+   
+    width: 80%;
+    padding: 1.5rem;
+    border-radius: 20px;
+    background-color: #f1faef;
+    /* border: 0.3rem solid red; */
+    margin: 1.5rem;
+    color: black;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0 0 3px rgb(7, 4, 4) 
+}
+#role{
+    font-size: 2.1rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+#company{ 
+    margin: 0.4rem 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+#type{
+    
+}
+.innerbox{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+}
+.innerbox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#location{ 
+    margin: 0.3rem 0;
+}
+#nature{
+    margin: 0.3rem 0;
+}
+#money{
+   
+}
+#time{
+    
+}
+#duration{
+}
+
+#details{
+    margin: 0.6rem 0;
+}
+.margin{
+    margin: 0 0.3rem;
+}
+.upheadings{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+
+/*  */

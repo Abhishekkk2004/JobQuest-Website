@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Barriecito&family=Exo+2:wght@500&family=Hedvig+Letters+Serif:opsz@12..24&family=Kanit&family=Nunito:ital,wght@0,600;1,600&family=Poppins&family=Prompt:wght@500&family=Roboto:ital,wght@1,100&family=Teko:wght@300&family=Ubuntu:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Exo+2:wght@500&family=Heebo:wght@500&family=Nunito:ital,wght@0,200;0,600;1,600&family=Prompt:wght@500&family=Teko:wght@300;400&family=Varela+Round&display=swap');
+.left{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.red{
+    color:red;
+}
+/* header{
+    min-height: 11vh;
+    background-color: rgb(19, 17, 17);
+} */
+.navbar{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    /* box-shadow: -2px 5px 9px -5px rgba(251, 255, 255, 0.7); */
+    background-color: white;
+    position: sticky;
+}
+.right ul{
+    display: flex;
+    list-style: none; 
+
+}
+.right ul li{
+    padding: 0px 2rem;
+}
+.right ul li a{
+    text-decoration: none;
+    font-family:'Poppins';
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    padding: 0.6rem;
+    border-radius: 1rem;
+}
+.right ul li a:hover{
+    border: 1px solid black;
+}
+
+/* ************* */
+
+.container1{
+    /* border: 1px solid red; */
+    min-height: 100vh;
+    background:rgba(0,0,0,0.8)url(background1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    min-height: 90vh; 
+    background-color: #F3F9E3;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    
+}
+.container3{
+    padding: 2.5rem;
+    min-height: 80vh; 
+    background-color: #FDFFFC;
+    
+
+}
+.container4{
+    padding: 2.5rem;
+    min-height: 60vh; 
+    background-color:#f9f7cd;
+    
+}
+
+.fline{
+    min-height: 20vh;
+    font-family: 'Caveat', cursive;
+    
+    width: 90%;
+    
+    /* border: 1px solid red; */
+    display: flex;
+    color: azure;
+    
+    justify-content: center;
+    align-items: center;
+}
+.font{
+    font-size: 4rem;
+    font-weight: bolder;
+    text-shadow: 0 0 0.3rem rgb(255, 0, 0);
+}
+.sline{
+    min-height: 20vh;
+    width: 90%;
+    font-family:'Poppins';
+    /* border: 1px solid red; */
+    display: flex;
+    color: azure;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center; 
+}
+.element{
+    margin: 2rem 0;
+    /* border: 1px solid red; */
+}
+.buttons{
+    margin: 1rem 0;
+    width: 90%;
+    /* border: 1px solid red; */
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    height:20vh;
+}
+.button{
+    border: none;
+    padding:0.3rem;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width:30%;
+    height:3rem;
+    font-family:'Poppins';
+    box-shadow: 0 0 8px whitesmoke, 0 0 18px whitesmoke;
+}
+.button:hover{
+    cursor: pointer;
+    color:rgb(255, 0, 0);
+} 
+.red{
+    color:red;
+}
+
+.heading{
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+   
+}
+.bold{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+.text{
+    font-family:'Poppins';
+    font-size: 0.9rem;
+    /* border: 1px solid red; */
+    
+}
+.read{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.newdesign{
+    border: none;
+    padding:0.3rem;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width:30%;
+    height:3rem;
+    font-family:'Poppins';
+    box-shadow: 0 0 8px rgb(241, 18, 18), 0 0 18px rgb(7, 4, 4);
+}
+.newdesign:hover{
+    cursor: pointer;
+    color:rgb(255, 0, 0);
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    font-family:'Poppins';
+    font-weight: bold;
+    width: 30%;
+    height: 57vh;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: #E7F7E5;
+    border: 0.3rem solid red;
+    margin: 1.5rem;
+    color: black;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 8px rgb(241, 18, 18), 0 0 18px rgb(7, 4, 4);
+}
+.img1 img{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 30px;
+    box-shadow:  0 0 10px rgb(7, 4, 4);
+}
+.learn{
+    margin: 0.3rem;
+    border: 1px solid black;
+    padding:0.3rem;
+    
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width:80%;
+    height:3rem;
+    font-family:'Poppins';
+}
+.learn:hover{
+    cursor: pointer;
+    color:rgb(255, 0, 0);
+}
+#contactbox{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#contactbox input{
+     width: 100%;   
+     padding: 5px;
+     text-align: center;
+     border-radius: 5px;
+     
+}
+#contactbox form{
+    width: 60%;
+}
+#contactbox label{
+    font-size: 18px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-color: #333;
+    color: #E7F7E5;
+    font-family:'Poppins';
+    font-size: 1rem;
+}
+.submit{
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+    padding: 1rem;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.button a:hover{
+    color: red;
+}
+
+
+.right2 {
+   
+    list-style: none; 
+    display: none;
+    flex-direction: column; 
+    position: fixed;
+    top:0;
+    right: 0;
+    height: 100vh;
+    width:17rem;
+    background-color: rgba(255, 255, 255);
+    /* backdrop-filter: blur(25px); */
+    align-items: center;
+    color: #e4eee1;
+    /* font-weight: bold; */
+    
+}
+ .right2  li{
+    
+    width: 100%;
+    padding: 2.5px 2rem;
+     margin: 1.5rem; 
+     border: 1px solid rgba(248, 248, 248, 0);
+} 
+.right2  li a{
+    width: 80%;
+    text-decoration: none;
+    font-family:'Poppins';
+    color: #050505;
+    /* font-weight: bold; */
+    font-size: 1.2rem;
+    text-shadow:  1px 1px 1px rgb(0, 0, 0) , 1px 1px 1px rgb(0, 0, 0);;
+    /* border: 1px solid rgb(248, 248, 248); */
+    padding: 0.6rem;
+    border-radius: 1rem;
+}
+.right2  li:hover{
+    background-color: #e4eee1;
+    border: 1px solid #e4eee1;
+}
+.crossmain{
+    color: #050505;
+    margin: 2rem 2rem 0 0;
+    font-size: 2rem;
+    
+}
+.hambmain1{
+    display: none;
+}
+
+
+
+/* ******************Responsive Of First Page************* */
+@media(max-width:1100px) {
+    .hambmain1{
+        display: flex;
+        font-size: 1.75rem;
+    }
+    .hideonmobile1{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+    .sline{
+        font-size: 2.5rem;
+    }
+    
+}
+/* .sline{
+    min-height: 20vh;
+    width: 90%;
+    font-family:'Poppins';
+     border: 1px solid red; 
+    display: flex;
+    color: azure;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center; 
+}
+.element{
+    margin: 2rem 0;
+    /* border: 1px solid red; 
+} */
+@media(max-width:890px){
+    .box{
+        width: 70%;
+        font-size: 0.9rem;
+    }
+    .sline{
+        font-size: 2rem;
+    }
+    .font{
+        font-size: 3.5rem;
+    }
+}
+@media(max-width:700px){
+    .sline{
+        justify-content: none;
+        align-items: none;
+       
+    }
+    .box{
+        width: 70%;
+        font-size: 0.9rem;
+    }
+    .buttons{
+       
+        width: 90%;
+        flex-direction: column;
+        
+    }
+    .button{
+        margin: 1.5rem;
+        font-size: 1rem;
+       
+        width:50%;
+       
+    }
+    #contactbox form{
+        width: 80%;
+    }
+    .text{
+        font-size: 0.75rem;
+    }
+    .bold{
+        font-size: 0.95rem;
+    }
+    .heading{
+        font-size: 1.7rem;
+    }
+    .newdesign{
+        font-size: 1rem;
+        width: 50%;
+    }
+}
+@media(max-width:450px)
+{
+    
+    .box{
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    .learn{
+        font-size: 0.9rem;
+    }
+    .img1 img{
+        height: 11rem;
+        width: 11rem;
+       
+    }
+    .font{
+        font-size: 3rem;
+    }
+    .button{
+        margin: 1.5rem;
+        font-size: 0.95rem;
+       
+        width:70%;
+       
+    }
+}
